@@ -1,1 +1,1 @@
-<img src="/images/photos/hmartch-65.jpg" alt="Me" />		<h1><a href="index.php">HelenMartch.com</a></h1>		<p>The personal site of a casual red-headed mom and front-end web developer.</p>
+<div class="btn-close"></div><div class="btn-open"></div>    <img src="/images/photos/hmartch-65.jpg" alt="Me" />		<h1><a href="index.php">HelenMartch.com</a></h1>		<p>The personal site of a casual red-headed mom and front-end web developer.</p>
