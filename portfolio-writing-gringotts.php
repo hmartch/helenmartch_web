@@ -161,9 +161,6 @@ out into Diagon Alley.</p>
 	
 	<?php include "includes/foot.php"; ?>
 	
-	<script src="js/jquery-1.7.1.js" type="text/javascript"></script>
-	<script src="js/hlm2011.js" type="text/javascript"></script>
-	
 </div>
 </body>
 </html>

@@ -24,6 +24,7 @@
 	<div id="main">
 		<h2>About My Site</h2>
 		<section>
+		<p>Test change</p>
 		<p>I have had a personal website since 1996. This site is meant to be a showcase of my skills and range of abilities and also a personal space.</p>
 		<p>I have written all the content, planned the design, prepped the images, edited and converted the videos, and written the code. This latest 
 		version uses PHP, XSL, XML, JSON, JQuery, CSS, and HTML5. I have tested with Firefox, Safari, Chrome, Internet Explorer, and even on the iPad. Taking the 
@@ -87,9 +88,6 @@
 	</div>
 	
 	<?php include "includes/foot.php"; ?>
-	
-	<script src="js/jquery-1.7.1.js" type="text/javascript"></script>
-	<script src="js/hlm2011.js" type="text/javascript"></script>
 	
 </div>
 </body>
