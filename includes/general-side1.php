@@ -1,0 +1,5 @@
+<p><img src="/images/facebook-15.png" class="icon" alt=""/>Are we friends or family? Find me on <a href="http://www.facebook.com/profile.php?id=100000912637008" target="ext">Facebook</a>.</p>
+		<p><img src="/images/linkedin-15.png" class="icon" alt="" />Have we worked together? Link up on <a href="http://www.linkedin.com/pub/helen-martch/15/885/931" target="ext">LinkedIn</a>.</p>
+		<p><img src="/images/goodreads-15.png" class="icon" alt="" />What am I reading? Browse my bookshelf on <a href="http://www.goodreads.com/user/show/3565405-helen-martch" target="ext">GoodReads</a>.</p>
+		<p>Try the trivia quizzes I've written on <a href="http://www.funtrivia.com/profile/Eolena.html" target="ext">FunTrivia</a>.</p>
+		<p>Check out whether I've currently got anything for sale on <a href="http://myworld.ebay.com/hlmartch" target="ext">eBay</a>.</p>

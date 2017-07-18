@@ -1,0 +1,20 @@
+header > h1 {margin:5px 0 0 0;}
+header > p {margin:0 0 12px 0;}
+header img {margin:5px 0 8px 0;}
+
+/* general nav styles */
+nav ul li.last-child {border-right:none;}
+
+/* specific top level nav styles
+nav ul li#fam {width:165px;}
+nav ul li#int {width:130px;}
+nav ul li#proj {width:285px;}
+nav ul li#res {width:201px;} */
+
+/* specific sub level nav styles */
+nav ul.sub li {padding:6px 4px 6px 4px;height:12px;}
+
+/* specific sub level "ON" nav styles */
+nav ul li.on a, nav ul li.on ul.sub li {background:transparent;color:#181636;}
+
+video {border:0 none;}
