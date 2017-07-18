@@ -1,0 +1,8 @@
+User-agent: *
+Disallow: /test/
+Disallow: /data/
+Disallow: /includes/
+Disallow: /js/
+Disallow: /styles/
+Disallow: /images/
+Disallow: /videos/
