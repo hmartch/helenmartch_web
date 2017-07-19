@@ -4,22 +4,12 @@
 	<title>Family: Genealogy - HelenMartch.com</title>
 	<meta name="description" content="About my interest in my family tree and a list of the surnames in it." />
 	<meta name="keywords" content="family tree genealogy personal site Helen Martch Helen March" />
-	<meta charset="windows-1252">
-	<meta name="google-site-verification" content="hgbcQefWUSgp2t9BA0KJuCPJQGyOVdeemJ8h8sy7L9c" />
-	<link rel="stylesheet" type="text/css" href="styles/hlm2011.css"/>
-	<!--[if lt IE 9]>
-	<link rel="stylesheet" type="text/css" href="styles/hlm2011-ie-lt9.css"/>
-	<script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
-	<![endif]-->
+	<?php include "includes/head.php"; ?>
 </head>
 <body>
 	<div id="photoside"></div>
+	<?php include "includes/header.php"; ?>
 	<div id="content">
-
-	<header>
-		<?php include "includes/heading.php"; ?>
-		<?php include "includes/nav.php"; ?>
-	</header>
 	
 	<div id="main">
 		<h2>Genealogy</h2>
@@ -60,6 +50,7 @@
 			<li>Jackson</li>
 			<li>Jones</li>
 		</ul>
+		
 		<ul class="surnames left">
 			<li>Keller</li>
 			<li>Kelly</li>
@@ -91,25 +82,8 @@
 		</section>
 	</div>
 	
-	<div id="side1" class="side">
+	<div class="side">
 		<p><img src="/images/facebook-15.png" class="icon" alt=""/>Are we family? Find me on <a href="http://www.facebook.com/profile.php?id=100000912637008" target="ext">Facebook</a>.</p>
-	</div>
-	
-	<div id="side2" class="side">
-		<div id="biobits">
-			<ul>
-				<li>My mother-in-law grew up in the same town where my great grandmother was from and where my grandfather had gone to high school.</li>
-				<li>One of my great-great grandfathers was a sheriff in Texas.</li>
-				<li>One of my great grandmothers had been a member of the Daughters of the American Revolution (DAR).</li>
-				<li>A great-great grandmother of mine had supposedly been an opera singer in Germany before she married.</li>
-				<li>I have found the names of all my great-great grandparents, except for one great-great grandfather.</li>
-				<li>I have a few branches of my family tree with names back to the 1500's.</li>
-			</ul>
-		</div>
-	</div>
-
-	<div id="side3" class="side">
-		
 	</div>
 	
 	<?php include "includes/foot.php"; ?>

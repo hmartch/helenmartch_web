@@ -14,7 +14,6 @@
 	<div id="main">
 		<h2>About My Site</h2>
 		<section>
-		<p>Test change</p>
 		<p>I have had a personal website since 1996. This site is meant to be a showcase of my skills and range of abilities and also a personal space.</p>
 		<p>I have written all the content, planned the design, prepped the images, edited and converted the videos, and written the code. This latest 
 		version uses PHP, XSL, XML, JSON, JQuery, CSS, and HTML5. I have tested with Firefox, Safari, Chrome, Internet Explorer, and even on the iPad. Taking the 
@@ -48,26 +47,13 @@
 		</section>
 	</div>
 	
-	<div id="side1" class="side">
+	<div class="side">
 		<?php include "includes/general-side1.php"; ?>
 	</div>
-	
-	<div id="side2" class="side">
-		<div id="biobits">
-			<ul>
-				<li>I learned to tap dance (sort of) after being enlisted for the cast of a production of 42nd Street because I could sing.</li>
-				<li>When my son was born, I had to have labor induced and it was still 47 hours of labor before delivery.</li>
-				<li>I threw shotput and discus on the high school track team.</li>
-				<li>I sang soprano in high school and college choirs.</li>
-				<li>My favorite ice cream flavor is mint chocolate chip.</li>
-				<li>In 1991, I loaded up my yellow hatchback and moved from NJ to Chicago "for the summer" and never moved back.</li>
-			</ul>
-		</div>
-	</div>
 
-	<div id="side3" class="side">
+	<div class="side">
 		<h3>Video</h3>
-		<video width="240" height="180" controls="controls">
+		<video controls="controls">
 			<source src="/videos/snowman.mp4" type="video/mp4" />
 			<source src="/videos/snowman.theora.ogg" type="video/ogg" />
 			Sorry, but your browser does not support the video tag.
