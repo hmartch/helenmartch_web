@@ -1,3 +1,4 @@
+		<!-- TODO: 1. change a tags in top level to classed div and use click event; 2. combine content pages -->
 		<nav>
 			<ul>
 				<li id="res"><a href="#">R&eacute;sum&eacute;</a>
