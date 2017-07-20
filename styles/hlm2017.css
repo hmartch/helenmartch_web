@@ -521,22 +521,20 @@ table.sortable tbody td a {text-decoration:none;border:1px solid;padding:0 1px;}
   }
 
   #main {
+    border: 10px solid #003366;
     float: none;
     margin: 0;
-    width: calc(100% - 40px);
+    width: calc(100% - 60px);
   }
 
   .side {
-    border-left: 0 none;
-    width: calc(100% - 40px);
+    border: 10px solid #003366;
+    margin: 0;
+    width: calc(100% - 60px);
   }
 
   #side3 {
     padding: 10px 20px;
-  }
-
-  .side video {
-    width: 90%;
   }
 
   figure.gen {
