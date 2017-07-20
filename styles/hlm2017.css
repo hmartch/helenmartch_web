@@ -104,9 +104,9 @@ img.phot {
 img.slide {
   display: block;
   float: none;
-  width: 530px;
-  height: 398px;
   margin: 10px 0 0 0;
+  max-width: 530px;
+  width: 100%;
 }
 
 img.map {
@@ -283,7 +283,6 @@ nav ul li.on ul.sub li a:hover {
 }
 
 .side ul {
-  margin: 0 0 10px 0;
   padding: 0 0 12px 12px;
 }
 
@@ -301,7 +300,8 @@ nav.slide {
   color: #003366;
   height: 18px;
   margin: 0 0 4px 0;
-  width: 530px;
+  max-width: 530px;
+  width: 100%;
 }
 
 nav.slide span {
@@ -342,11 +342,11 @@ section > div:last-child {margin-bottom:15px;}
 dl {margin:0;padding:0;}
 dd {margin:0 10px 10px 10px;}
 
-#thumbcont {width:530px;height:40px;margin:5px 0;padding:0;overflow:hidden;position:relative;}
-#thumbs {width:3500px;height:38px;position:relative;top:0;left:0;}
+#thumbcont {max-width:530px;height:40px;margin:5px 0;padding:0;overflow:hidden;position:relative;width: 100%;}
+#thumbs {width:3500px;position:relative;top:0;left:0;}
 #thumbs ul {list-style-type:none;margin:0;padding:0;}
-#thumbs ul li {float:left;width:50px;height:38px;margin:0 3px 0 0;padding:0;opacity:.75;}
-#thumbs ul li img {width:50px;height:38px;border:1px solid #fff;margin:0;padding:0;} 
+#thumbs ul li {float:left;width:50px;margin:0 3px 0 0;padding:0;opacity:.75;}
+#thumbs ul li img {width:50px;border:1px solid #fff;margin:0;padding:0;} 
 #thumbs ul li img:hover {border:1px solid #536f3f;cursor:pointer;}
 
 #slideloc, #slidedate {font-style:italic;}
@@ -530,6 +530,11 @@ ul.videos li img:hover {border:1px solid #536f3f;cursor:pointer;}
     top: 105px;
     transition: all .5s linear;
     z-index: 1;
+  }
+
+  nav.slide {
+    display: block;
+    position: static;
   }
 
   .nav-animate nav {
