@@ -280,6 +280,7 @@ nav ul li.on ul.sub li a:hover {
 video {
   border: 1px solid #003366;
   margin: 0 5px;
+  max-width: 350px;
   width: 95%;
 }
 
@@ -392,6 +393,10 @@ table.sortable tbody td a {text-decoration:none;border:1px solid;padding:0 1px;}
     z-index: 10;
   }
 
+  .nav-animate header {
+    z-index: 1;
+  }
+
   footer {
     width: calc(100% - 20px);
   }
@@ -449,12 +454,18 @@ table.sortable tbody td a {text-decoration:none;border:1px solid;padding:0 1px;}
     line-height: 30px;
     position: fixed;
     top: 105px;
+    transition: all 1s linear;
     z-index: 1;
+  }
+
+  .nav-animate nav {
+    display: block;
   }
 
   .nav-open nav {
     background-color: transparent;
     display: block;
+    transition: all 1s linear;
     width: 250px;
   }
 
@@ -487,6 +498,7 @@ table.sortable tbody td a {text-decoration:none;border:1px solid;padding:0 1px;}
   }
 
   #content {
+    border-top: 1px solid #181636;
     left: 0;
     margin: 90px 0 0 0;
     position: relative;
@@ -510,12 +522,8 @@ table.sortable tbody td a {text-decoration:none;border:1px solid;padding:0 1px;}
 
   #main {
     float: none;
-    width: calc(100% - 80px);
-  }
-
-  .nav-open #main,
-  .nav-animate #main {
-    margin-top: 0;
+    margin: 0;
+    width: calc(100% - 40px);
   }
 
   .side {
