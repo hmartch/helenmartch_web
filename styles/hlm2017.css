@@ -398,12 +398,13 @@ table.sortable tbody td a {text-decoration:none;border:1px solid;padding:0 1px;}
 
   .btn-close,
   .btn-open {
-    width: 40px;
+    cursor: pointer;
     height: 40px;
-    position: absolute;
-    z-index: 5;
-    top: 32px;
     left: 17px;
+    position: absolute;
+    top: 32px;
+    width: 40px;
+    z-index: 5;
   }
 
   .btn-open,
@@ -486,25 +487,35 @@ table.sortable tbody td a {text-decoration:none;border:1px solid;padding:0 1px;}
   }
 
   #content {
-    margin: 90px 0 0 0;
-    background: #fff;
     left: 0;
-    width: 100%;
-    top: 0;
-    z-index: 5;
+    margin: 90px 0 0 0;
     position: relative;
+    top: 0;
+    transition: all 1s linear;
+    width: 100%;
+    z-index: 5;
+  }
+
+  .nav-animate #content {
+    position: fixed;
   }
 
   .nav-open #content {
-    margin: 90px 0 0 0;
     background: #fff;
-    position: fixed;
     left: 250px;
+    margin: 90px 0 0 0;
+    position: fixed;
+    transition: all 1s linear;
   }
 
   #main {
     float: none;
     width: calc(100% - 80px);
+  }
+
+  .nav-open #main,
+  .nav-animate #main {
+    margin-top: 0;
   }
 
   .side {
