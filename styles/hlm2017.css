@@ -21,6 +21,7 @@ body {
   min-height:740px;
   position: fixed;
   top: 0;
+  transition: width .5s linear;
   width: 250px;
 }
 
@@ -370,15 +371,34 @@ table.sortable tbody td a {text-decoration:none;border:1px solid;padding:0 1px;}
 .side ul.videos li {list-style-type:none;float:left;}
 .side ul.videos li img:hover {border:1px solid #536f3f;cursor:pointer;}
 
+@media (max-width: 924px) {
+  #photoside {
+    background-size: contain;
+    transition: width .5s linear;
+    width: 100px;
+  }
+
+  header {
+    margin-left: 102px;
+    width: calc(100% - 102px);
+  }
+
+  #content {
+    left: 102px;
+  }
+}
+
 @media (max-width: 768px) {
   #photoside {
     background-position: 0 100%;
+    background-size: cover;
     height: 100vh !important;
     min-height: 0;
     opacity: .5;
     position: fixed;
     top: 0;
     left: 0;
+    width: 250px;
     z-index: 0;
   }
 
@@ -454,7 +474,7 @@ table.sortable tbody td a {text-decoration:none;border:1px solid;padding:0 1px;}
     line-height: 30px;
     position: fixed;
     top: 105px;
-    transition: all 1s linear;
+    transition: all .5s linear;
     z-index: 1;
   }
 
@@ -465,7 +485,7 @@ table.sortable tbody td a {text-decoration:none;border:1px solid;padding:0 1px;}
   .nav-open nav {
     background-color: transparent;
     display: block;
-    transition: all 1s linear;
+    transition: all .5s linear;
     width: 250px;
   }
 
@@ -473,23 +493,22 @@ table.sortable tbody td a {text-decoration:none;border:1px solid;padding:0 1px;}
     background: none;
     height: auto;
     margin: 0;
-    padding: 5px 10px;
+    padding: 0 10px;
     border-right: none;
     float: none;
     text-transform: uppercase;
-    width: 210px !important;
+    width: 210px;
   }
 
   nav ul.sub {
     visibility: visible;
     height: auto;
-    padding: 0;
-    line-height: 30px;
+    padding: 0 0 0 10px;
   }
 
   nav ul.sub li {
     border-right: none;
-    height: 30px;
+    height: 24px;
     padding: 5px 10px;
   }
 
@@ -503,7 +522,7 @@ table.sortable tbody td a {text-decoration:none;border:1px solid;padding:0 1px;}
     margin: 90px 0 0 0;
     position: relative;
     top: 0;
-    transition: all 1s linear;
+    transition: all .5s linear;
     width: 100%;
     z-index: 5;
   }
@@ -517,7 +536,7 @@ table.sortable tbody td a {text-decoration:none;border:1px solid;padding:0 1px;}
     left: 250px;
     margin: 90px 0 0 0;
     position: fixed;
-    transition: all 1s linear;
+    transition: all .5s linear;
   }
 
   #main {
