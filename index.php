@@ -59,7 +59,7 @@
 			Sorry, but your browser does not support the video tag.
 		</video>
 		<p>"The Death of a Snowman"</p>
-		<p><a href="portfolio-project.php?piece=death-snowman">More about this project</a></p>
+		<p>A 3-D computer animation that I produced while studying at DePaul University. <a href="portfolio-project.php?piece=death-snowman">More about this project.</a></p>
 		<p><a href="family-videos.php">See more videos...</a></p>
 	</div>
 	
