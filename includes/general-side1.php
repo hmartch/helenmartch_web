@@ -1,3 +1,4 @@
+<!-- TODO: update resume link -->
 <p><img src="/images/facebook-15.png" class="icon" alt=""/>Find me on <a href="http://www.facebook.com/profile.php?id=100000912637008" target="ext">Facebook</a>.</p>
     <p><img src="/images/GitHub-Mark-32px.png" class="icon" alt="" />View my <a href="https://github.com/hmartch" target="ext">GitHub</a> profile.</p>
     <p><img src="/images/icon-instagram.png" class="icon" alt="" />See my photos on <a href="https://www.instagram.com/helen.martch/" target="ext">Instagram</a>.</p>

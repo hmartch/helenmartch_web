@@ -1,7 +1,7 @@
 <!DOCTYPE HTML>
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
-	<title>Family: Genealogy - HelenMartch.com</title>
+	<title>Family: Tree - HelenMartch.com</title>
 	<meta name="description" content="About my interest in my family tree and a list of the surnames in it." />
 	<meta name="keywords" content="family tree genealogy personal site Helen Martch Helen March" />
 	<?php include "includes/head.php"; ?>
@@ -12,7 +12,7 @@
 	<div id="content">
 	
 	<div id="main">
-		<h2>Genealogy</h2>
+		<h2>Family Tree</h2>
 		<section>
 		<p>For years, I have been interested in my family tree. Where did my great-great grandparents come from? What did they do? When and why did they move? How did I come to have red hair when both of my parents are brunette?</p>
 		<p>Every now and then, I dig out the notebooks and shoeboxes that contain the collection of information that I have about those that came before me and I almost always make some realization that I'd not noted before.</p>
@@ -83,7 +83,7 @@
 	</div>
 	
 	<div class="side">
-		<p><img src="/images/facebook-15.png" class="icon" alt=""/>Are we family? Find me on <a href="http://www.facebook.com/profile.php?id=100000912637008" target="ext">Facebook</a>.</p>
+		<?php include "includes/general-side1.php"; ?>
 	</div>
 	
 	<?php include "includes/foot.php"; ?>

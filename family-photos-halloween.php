@@ -4,23 +4,13 @@
 	<title>Family: Photos: Halloween - HelenMartch.com</title>
 	<meta name="description" content="A slideshow of our son's Halloween costumes and some of our jack-o-lanterns and other Halloween fun other the years." />
 	<meta name="keywords" content="Halloween costumes jack-o-lantern pumpkin family photo slide personal site Helen Martch Helen March" />
-	<meta charset="windows-1252">
-	<meta name="google-site-verification" content="hgbcQefWUSgp2t9BA0KJuCPJQGyOVdeemJ8h8sy7L9c" />
-	<link rel="stylesheet" type="text/css" href="styles/hlm2011.css"/>
-	<!--[if lt IE 9]>
-	<link rel="stylesheet" type="text/css" href="styles/hlm2011-ie-lt9.css"/>
-	<script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
-	<![endif]-->
+	<?php include "includes/head.php"; ?>
 	<script src="data/JSONdata-halloween.js" type="text/javascript"></script>
 </head>
 <body>
 	<div id="photoside"></div>
+	<?php include "includes/header.php"; ?>
 	<div id="content">
-
-	<header>
-		<?php include "includes/heading.php"; ?>
-		<?php include "includes/nav.php"; ?>
-	</header>
 	
 	<div id="main">
 		<h2>Photos &mdash; Halloween</h2>
@@ -39,24 +29,21 @@
 		</section>
 	</div>
 	
-	<div id="side1" class="side">
-		<h3>More Photos</h3>
-		<ul>
-			<li><a href="family-photos-travel.php">Travel</a></li>
-			<li><a href="family-photos-pets.php">Pets</a></li>
-			<li>Halloween</li>
-		</ul>
-	</div>
-	
-	<div id="side2" class="side">
-		<div id="biobits">
-			<ul>
-				<li></li>
-			</ul>
-		</div>
+	<div class="side">
+		<?php include "includes/general-side1.php"; ?>
 	</div>
 
-	<div id="side3" class="side">
+	<div class="side">
+		<h3>More Photos</h3>
+		<ul>
+			<li><a href="family-photos-garden.php">Garden</a></li>
+			<li>Halloween</li>
+			<li><a href="family-photos-pets.php">Pets</a></li>
+			<li><a href="family-photos-travel.php">Travel</a></li>
+		</ul>
+	</div>
+
+	<div class="side">
 		<h3>Halloween Through the Years</h3>
 	</div>
 	

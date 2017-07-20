@@ -4,22 +4,12 @@
 	<title>Portfolio: Creative Writing - HelenMartch.com</title>
 	<meta name="description" content="A selection of stories and essays that I have written." />
 	<meta name="keywords" content="writing story essay fiction non-fiction portfolio personal site Helen Martch Helen March" />
-	<meta charset="windows-1252">
-	<meta name="google-site-verification" content="hgbcQefWUSgp2t9BA0KJuCPJQGyOVdeemJ8h8sy7L9c" />
-	<link rel="stylesheet" type="text/css" href="styles/hlm2011.css"/>
-	<!--[if lt IE 9]>
-	<link rel="stylesheet" type="text/css" href="styles/hlm2011-ie-lt9.css"/>
-	<script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
-	<![endif]-->
+	<?php include "includes/head.php"; ?>
 </head>
 <body>
 	<div id="photoside"></div>
+	<?php include "includes/header.php"; ?>
 	<div id="content">
-
-	<header>
-		<?php include "includes/heading.php"; ?>
-		<?php include "includes/nav.php"; ?>
-	</header>
 	
 	<div id="main">
 		<h2>Creative Writing</h2>
@@ -51,24 +41,8 @@
 		</section>
 	</div>
 	
-	<div id="side1" class="side">
+	<div class="side">
 		<?php include "includes/general-side1.php"; ?>
-	</div>
-	
-	<div id="side2" class="side">
-		<div id="biobits">
-			<ul>
-				<li>"My aim is to put down what I see and what I feel in the best and simplest way I can tell it." &mdash;Ernest Hemingway</li>
-				<li>"The most valuable of all talents is that of never using two words when one will do." &mdash;Thomas Jefferson</li>
-				<li>"There are three rules for writing. Unfortunately, no one can agree what they are." &mdash;Somerset Maugham</li>
-				<li>"I can't write five words but that I change seven." &mdash;Dorothy Parker</li>
-				<li>"I love writing.  I love the swirl and swing of words as they tangle with human emotions."  &mdash;James Michener</li>
-			</ul>
-		</div>
-	</div>
-
-	<div id="side3" class="side">
-		
 	</div>
 	
 	<?php include "includes/foot.php"; ?>

@@ -105,7 +105,7 @@ img.slide {
   display: block;
   float: none;
   width: 530px;
-  height: 98px;
+  height: 398px;
   margin: 10px 0 0 0;
 }
 
@@ -257,6 +257,7 @@ nav ul li.on ul.sub li a:hover {
   float: left;
   margin: 20px;
   min-height: 518px;
+  min-width: calc(100% - 390px);
   padding: 10px 20px;
   width: calc(100% - 390px);
 }
@@ -352,26 +353,71 @@ figure.gen img {width:275px;height:344px;}
 figcaption {font-style:italic;font-size:12px;}
 
 /* sortable table styles */
-table.sortable {width:530px;}
+table.sortable {
+  width: 100%;
+}
+
 table.sortable thead th {background-color:#eee;color:#004D9A;font-weight:bold;text-align:left;cursor:pointer;}
-table.sortable thead th:nth-child(1) {width:170px;}
-table.sortable thead th:nth-child(2) {width:220px;}
-table.sortable thead th:nth-child(3) {width:65px;}
-table.sortable thead th:nth-child(4) {width:40px;}
-table.sortable thead th span {font-size:12px;}
-table.sortable thead th.sorttable_nosort {cursor:default;}
-table.sortable tbody td {border-bottom:1px dashed #eee;padding-right:5px;}
-table.sortable tbody td:nth-child(4) {text-align:center;padding-right:0;}
-table.sortable tbody td a {text-decoration:none;border:1px solid;padding:0 1px;}
 
-.side ul.slides li span {color:#536f3f;text-decoration:underline;cursor:pointer;}
+table.sortable thead th:nth-child(1) {
+  width: 30%;
+}
 
-.side .thumb {width:60px;height:45px;border:1px solid #9ab3cd;margin:0;}
+table.sortable thead th:nth-child(2) {
+  width: auto;
+}
+
+table.sortable thead th:nth-child(3) {
+  width: 15%;
+}
+
+table.sortable thead th:nth-child(4) {
+  width:40px;
+}
+
+table.sortable thead th span {
+  font-size:12px;
+}
+
+table.sortable thead th.sorttable_nosort {
+  cursor:default;
+}
+
+table.sortable tbody td {
+  border-bottom:1px dashed #eee;
+  padding-right:5px;
+}
+
+table.sortable tbody td:nth-child(4) {
+  padding-right:0;
+  text-align:center;
+}
+
+table.sortable tbody td a {
+  border:1px solid;
+  text-decoration:none;
+  padding:0 1px;
+}
+
+.side ul.slides li span {
+  color:#536f3f;
+  cursor:pointer;
+  text-decoration:underline;
+}
+
+.thumb,
+ul.videos img {
+  border:1px solid #9ab3cd;
+  height:45px;
+  margin:0;
+  width:60px;
+}
+
 .side ul.videos {margin:0;padding:0;}
-.side ul.videos li {list-style-type:none;float:left;}
-.side ul.videos li img:hover {border:1px solid #536f3f;cursor:pointer;}
+ul.videos li {list-style-type:none;float:left;}
+ul.videos li img:hover {border:1px solid #536f3f;cursor:pointer;}
 
-@media (max-width: 924px) {
+@media (max-width: 1013px) {
   #photoside {
     background-size: contain;
     transition: width .5s linear;

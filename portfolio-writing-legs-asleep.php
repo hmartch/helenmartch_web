@@ -4,22 +4,12 @@
 	<title>Legs Asleep - HelenMartch.com</title>
 	<meta name="description" content="The story of when both my legs fell asleep in class in junior high." />
 	<meta name="keywords" content="legs asleep junior high writing story non-fiction portfolio personal site Helen Martch Helen March" />
-	<meta charset="windows-1252">
-	<meta name="google-site-verification" content="hgbcQefWUSgp2t9BA0KJuCPJQGyOVdeemJ8h8sy7L9c" />
-	<link rel="stylesheet" type="text/css" href="styles/hlm2011.css"/>
-	<!--[if lt IE 9]>
-	<link rel="stylesheet" type="text/css" href="styles/hlm2011-ie-lt9.css"/>
-	<script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
-	<![endif]-->
+	<?php include "includes/head.php"; ?>
 </head>
 <body>
 	<div id="photoside"></div>
+	<?php include "includes/header.php"; ?>
 	<div id="content">
-
-	<header>
-		<?php include "includes/heading.php"; ?>
-		<?php include "includes/nav.php"; ?>
-	</header>
 	
 	<div id="main">
 		<article>
@@ -34,20 +24,11 @@
 		</article>
 	</div>
 	
-	<div id="side1" class="side">
+	<div class="side">
 		<?php include "includes/general-side1.php"; ?>
 	</div>
-	
-	<div id="side2" class="side">
-		<div id="biobits">
-			<ul>
-				<li></li>
-				<li></li>
-			</ul>
-		</div>
-	</div>
 
-	<div id="side3" class="side">
+	<div class="side">
 		<?php include "includes/portfolio-writing-side.php"; ?>
 	</div>
 	

@@ -4,22 +4,12 @@
 	<title>R&eacute;sum&eacute;: Employment - HelenMartch.com</title>
 	<meta name="description" content="Details about my work experience including front-end web development, interaction design, teaching, television production and administrative positions." />
 	<meta name="keywords" content="front-end web development user experience interaction design work job experience career resume personal site Helen Martch Helen March" />
-	<meta charset="windows-1252">
-	<meta name="google-site-verification" content="hgbcQefWUSgp2t9BA0KJuCPJQGyOVdeemJ8h8sy7L9c" />
-	<link rel="stylesheet" type="text/css" href="styles/hlm2011.css"/>
-	<!--[if lt IE 9]>
-	<link rel="stylesheet" type="text/css" href="styles/hlm2011-ie-lt9.css"/>
-	<script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
-	<![endif]-->
+	<?php include "includes/head.php"; ?>
 </head>
 <body>
 	<div id="photoside"></div>
+	<?php include "includes/header.php"; ?>
 	<div id="content">
-
-	<header>
-		<?php include "includes/heading.php"; ?>
-		<?php include "includes/nav.php"; ?>
-	</header>
 	
 	<div id="main">
 		<h2>Employment</h2>
@@ -89,22 +79,11 @@
 		</section>
 	</div>
 	
-	<div id="side1" class="side">
-		<p><img src="/images/linkedin-15.png" class="icon" alt="" />Have we worked together? Link up on <a href="http://www.linkedin.com/pub/helen-martch/15/885/931" target="ext">LinkedIn</a>.</p>
-		<p>Download a PDF of <a href="resume-hmartch-201305-web.pdf">my complete r&eacute;sum&eacute;</a>.</p>
-	</div>
-	
-	<div id="side2" class="side">
-		<div id="biobits">
-			<ul>
-				<li>Know what it's like to stand at the hot end of a shrink-wrapping machine in a non-air-conditioned warehouse all day in the middle of summer? I do!</li>
-				<li>Back in the days of film cameras, you'd be amazed at the things people would take to the photos-in-an-hour store to get developed.</li>
-				<li>I still have one of the educational filmstrips that I helped produce from my job at Visual Education Corporation in the summer of 1988.</li>
-			</ul>
-		</div>
+	<div class="side">
+		<?php include "includes/general-side1.php"; ?>
 	</div>
 
-	<div id="side3" class="side">
+	<div class="side">
 		<?php include "includes/skills.php"; ?>
 	</div>
 	
