@@ -19,7 +19,7 @@
 			<h3>Photos</h3>
 			<p>Slideshows of our gardens, my son at Halloween, my pets through the years, and travel photos from various locations.</p>
 			<ul class="photos">
-				<li><a href="family-garden.php"><img src="/images/photos/garden/201110-27-mapletreecu-530.jpg" alt=""/><br/>Garden</a></li>
+				<li><a href="family-photos-garden.php"><img src="/images/photos/garden/201110-27-mapletreecu-530.jpg" alt=""/><br/>Garden</a></li>
 				<li><a href="family-photos-halloween.php"><img src="/images/photos/halloween/200810-12-nickypumpk-165.jpg" alt=""/><br/>Halloween</a></li>
 				<li><a href="family-photos-pets.php"><img src="/images/photos/pets/201012-76-daisy-165.jpg" alt=""/><br/>Pets</a></li>
 				<li><a href="family-photos-travel.php"><img src="/images/photos/travel/201108-07-kudzuroad-165.jpg" alt=""/><br/>Travel</a></li>

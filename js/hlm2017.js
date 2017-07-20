@@ -78,10 +78,10 @@
 	}
 	
 	var slideshowList = function (id) {
-		$('div#side3').append('<ul class="slides"></ul>');
+		_document.find('.side.details').append('<ul class="slides"></ul>');
 		$(slides).each(function(i) {
 			if ( slides[i].show != prevshow ) {
-				$('div#side3 ul').append('<li id="listitem' + i + '"><span>' + slides[i].show + '</span></li>');
+				$('.side.details ul').append('<li id="listitem' + i + '"><span>' + slides[i].show + '</span></li>');
 				return prevshow = slides[i].show;
 			}
 		});

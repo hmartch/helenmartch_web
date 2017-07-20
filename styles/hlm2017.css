@@ -109,6 +109,14 @@ img.slide {
   margin: 10px 0 0 0;
 }
 
+img.map {
+  display: block;
+  float: none;
+  margin: 0 auto;
+  max-width: 530px;
+  width: 100%;
+}
+
 #content {
   background: #fff;
   bottom: 0;

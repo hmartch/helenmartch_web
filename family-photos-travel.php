@@ -43,7 +43,7 @@
 		</ul>
 	</div>
 
-	<div class="side">
+	<div class="side details">
 		<h3>Travel Locations</h3>
 	</div>
 	

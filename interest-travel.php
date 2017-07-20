@@ -20,7 +20,7 @@
 		to the Bahamas with my girlfriends, the only other countries I'd been to had been Canada and Mexico. On our honeymoon, we went to Spain and we've been able 
 		to do more traveling in other parts of the world since then.</p>
 		<p>The below map shows in yellow the states in which I have traveled. Someday I hope to visit the rest of them.</p>
-		<img src="/images/usanames.png" alt="" style="width:530px;height:275px;" />
+		<img src="/images/usanames.png" alt="" class="map" />
 		<p>I have been to each of the U.S. Virgin Islands, St. Croix, St. Thomas, and my favorite, St. John.  And brief day visits to Tortuga of the British Virgin Islands.</p>
 		<p>Countries which I have visited:</p>
 		<ul>
@@ -45,7 +45,7 @@
 		<?php include "includes/general-side1.php"; ?>
 	</div>
 
-	<div class="side">
+	<div class="side details">
 		<h3>Some Travel Photos</h3>
 	</div>
 	

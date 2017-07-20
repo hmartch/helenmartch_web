@@ -43,7 +43,7 @@
 		</ul>
 	</div>
 
-	<div class="side">
+	<div class="side details">
 		<h3>The Evolving Gardens</h3>
 	</div>
 	
