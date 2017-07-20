@@ -5,6 +5,7 @@
 
 body {
   background: #003366;
+  color: #181636;
   font-family: 'Trebuchet MS';
   font-size: 13px;
   overflow-x: hidden;
@@ -401,8 +402,26 @@ table.sortable tbody td a {text-decoration:none;border:1px solid;padding:0 1px;}
     height: 40px;
     position: absolute;
     z-index: 5;
-    top: 35px;
-    left: 20px;
+    top: 32px;
+    left: 17px;
+  }
+
+  .btn-open,
+  .nav-open .btn-close {
+    display: block;
+  }
+
+  .nav-open .btn-open {
+    display: none;
+  }
+
+  .btn-close img,
+  .btn-open img {
+    border: 0 none;
+    height: 22px;
+    opacity: .75;
+    position: static;
+    width: 22px;
   }
 
   header img {
