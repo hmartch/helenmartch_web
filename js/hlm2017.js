@@ -3,14 +3,14 @@
 	_document = $(document);
 
 	/* Copyright Year */
-	var	copyright = $('span#copyright');
+	var	copyright = _document.find('#copyright');
 	if ( copyright.length ) {
 		var now = new Date();
 		copyright.text(now.getFullYear());
 	};
 
 	/* Email Me Link */
-	var	email = $('span#email'),
+	var	email = _document.find('#email'),
 		fname = "helen",
 		domain = "helenmartch.com";
 	if ( email.length ) {
@@ -21,19 +21,19 @@
 	var	pathStr = location.pathname,
 		thisPg = pathStr.substring(pathStr.lastIndexOf('/')+1, pathStr.length);
 	if ( thisPg.indexOf('family') > -1 ) {
-		$('#fam').addClass('on');
+		_document.find('#fam').addClass('on');
 	}
 	else if ( thisPg.indexOf('interest') > -1 ) {
-		$('#int').addClass('on');
+		_document.find('#int').addClass('on');
 	}
 	else if ( thisPg.indexOf('portfolio') > -1 ) {
-		$('#proj').addClass('on');
+		_document.find('#proj').addClass('on');
 	}
 	else if ( thisPg.indexOf('resume') > -1 ) {
-		$('#res').addClass('on');
+		_document.find('#res').addClass('on');
 	};
 	
-	$('nav li:last-child').addClass('last-child');
+	_document.find('nav li:last-child').addClass('last-child');
 
 	/* ipad and iphone fix, with thanks to Mark Goddard from http://blog.0100.tv/2010/05/fixing-the-hover-event-on-the-ipadiphoneipod/ */
 	var topnavlink = $('nav ul li a');
@@ -50,79 +50,17 @@
 	piece = location.search;
 	if ( piece.indexOf('death-snowman') > -1 ) {
 		var vidcode = '<h3>Video<\/h3>';
-		vidcode += '<video width="240" height="180" controls="controls">';
+		vidcode += '<video controls="controls">';
 		vidcode += '<source src="\/videos\/snowman.mp4" type="video\/mp4" \/>';
 		vidcode += '<source src="\/videos\/snowman.theora.ogg" type="video\/ogg" \/>';
 		vidcode += 'Sorry, but your browser does not support the video tag.';
 		vidcode += '<\/video>';
 		vidcode += '<p>"The Death of a Snowman"<\/p>';
-		$('#side2').html(vidcode);
+		_document.find('#side2').html(vidcode);
 	}
-
-	/* BioBits Timed Display */
-	$.fn.rotateBioBits = function(speed) {
-		// grab list
-		var	list = $('#biobits li');
-		// set inital variables
-		var	current = 0, 
-			total = list.length,
-			shown = $(list[current]);
-		// init first element's display
-		shown.show();
-		return window.setInterval(function(){
-			shown.hide();
-			// determine if current should be incremented or reset
-			current = current + 1;
-			if (current >= total) {
-				current = 0;
-			};
-			shown = $(list[current]);
-			shown.show();
-		}, speed || 5500);
-	};
-	
-	var biobits = $('div#biobits');
-	if ( biobits.length ) {
-		biobits.rotateBioBits(4000);
-	}
-
-	/* Setting Side Height */
-	var	main = $('#main'),
-		side1 = $('#side1'),
-		side2 = $('#side2'),
-		side3 = $('#side3'),
-		photoside = $('#photoside'),
-		buffer = 30,
-		headerht = $('header img').outerHeight() + $('header li').outerHeight() + buffer,
-		footerht = $('footer').outerHeight(),
-		side1ht = side1.outerHeight(),
-		side2ht = side2.outerHeight(),
-		side3ht = side3.outerHeight(),
-		photosideht = photoside.outerHeight(),
-		othersides = side1ht + side2ht,
-		fullht = othersides + side3ht;
-
-	var setSide = function () {
-		var mainht = main.outerHeight(),
-			remain = mainht - othersides;
-		if ( side3ht < remain ) {
-			side3.css('height', remain);
-			fullht = othersides + remain + headerht + footerht + buffer;
-		}
-		else {
-			fullht = othersides + side3ht + headerht + footerht + buffer;
-		}
-		if ( photosideht < fullht ) {
-			photoside.css('height', fullht);
-		}
-		else if ( photosideht > fullht ) {
-			photoside.css('height', photosideht);
-		}
-	}
-	setSide();
 
 	/* Toggle Course Lists */
-	$('.courses').on('click', function() {
+	_document.find('.courses').on('click', function() {
 		if ( $(this).children('span').text() == '[+] show' ) {
 			$(this).children('span').text('[-] hide');
 		}
@@ -130,7 +68,6 @@
 			$(this).children('span').text('[+] show');
 		}
 		$(this).siblings('ul').toggle();
-		setSide();
 	});
 
 	/* Slideshows */
@@ -193,7 +130,6 @@
 				$('span.next').removeClass('link');
 				$('span.last').removeClass('link');
 			}
-			setSide();
 		};
 
 		$('nav.slide').on('click', 'span.link', function() {
@@ -327,7 +263,6 @@
 				}
 			}
 		});
-		setSide();
 	}
 	
 	var showProject = function(i){
@@ -384,7 +319,6 @@
 				$('#side3').append('<a href="portfolio-project.php?piece='+projects[j].pId+'"><img src="images/portfolio/'+projects[j].category+"/"+projects[j].image+'-60.jpg" alt="' + projects[j].piecename + '" title="'+projects[j].piecename+'" class="thumb"/></a>');
 			}
 		});
-		setSide();
 	}
 	
 	if ( window.location.toString().indexOf('portfolio-category.php?cat=') != '-1' ) {

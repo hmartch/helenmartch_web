@@ -82,7 +82,7 @@
         </div>
                 
 				<b>Multimedia Course</b>, <span class="years">1995</span><br/>
-				<a href="http://www.scs.northwestern.edu/" target="ext">Northwestern University College</a>, Evanston, Illinois<br/>
+				<a href="http://www.northwestern.edu/" target="ext">Northwestern University College</a>, Evanston, Illinois<br/>
 				<div>
           <div class="courses"><span>[+] show</span> course</div>
 					<ul>
