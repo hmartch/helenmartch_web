@@ -43,7 +43,7 @@
 		</ul>
 	</div>
 
-	<div class="side">
+	<div class="side details">
 		<h3>Halloween Through the Years</h3>
 	</div>
 	
