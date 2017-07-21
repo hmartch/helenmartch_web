@@ -31,13 +31,13 @@
 		<?php include "includes/general-side1.php"; ?>
 	</div>
 
-	<div class="side">
+	<div class="side details">
 		<h3><!--More catname--></h3>
 	</div>
 	
-	<?php include "includes/foot.php"; ?>
 	<script src="data/JSONdata-portfolioCategories.js" type="text/javascript"></script>
 	<script src="data/JSONdata-portfolioProjects.js" type="text/javascript"></script>
+	<?php include "includes/foot.php"; ?>
 	
 </div>
 </body>

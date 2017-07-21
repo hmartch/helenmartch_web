@@ -33,10 +33,6 @@
 	<div class="side">
 		<?php include "includes/general-side1.php"; ?>
 	</div>
-
-	<div class="side">
-		<!-- empty -->
-	</div>
 	
 	<?php include "includes/foot.php"; ?>
 	
