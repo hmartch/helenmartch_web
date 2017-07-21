@@ -32,7 +32,7 @@
 		
 		
 		<h3>My Family</h3>
-		<p>The past, present, and future of my family is very important to me. I share some <a href="family-photos.php">memories</a> and thoughts about 
+		<p>The past, present, and future of my family is very important to me. I share some <a href="family-memories.php">memories</a> and thoughts about 
 			my <a href="family-genealogy.php">family tree</a>.</p>
 
 		

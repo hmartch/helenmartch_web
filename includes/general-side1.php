@@ -5,4 +5,4 @@
 		<p><img src="/images/linkedin-15.png" class="icon" alt="" />Link up on <a href="http://www.linkedin.com/pub/helen-martch/15/885/931" target="ext">LinkedIn</a>.</p>
     <p><img src="/images/icon-stackoverflow.png" class="icon" alt="" />View my <a href="https://stackoverflow.com/users/1267500/redlena" target="ext">Stack Overflow</a> profile.</p>
     <p><img src="/images/icon-twitter.png" class="icon" alt="" />Follow me on <a href="https://twitter.com/helenmartch" target="ext">Twitter</a>.</p>
-    <p>Download my <a href="pdfs/resume-hmartch-201305-web.pdf">r&eacute;sum&eacute;</a>.</p>
+    <p>Download my <a href="pdfs/resume-hmartch-201305-web.pdf" target="ext">r&eacute;sum&eacute;</a>.</p>

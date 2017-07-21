@@ -36,7 +36,7 @@
 	_document.find('nav li:last-child').addClass('last-child');
 
 	/* ipad and iphone fix, with thanks to Mark Goddard from http://blog.0100.tv/2010/05/fixing-the-hover-event-on-the-ipadiphoneipod/ */
-	var topnavlink = _document.find('nav ul li a');
+	var topnavlink = _document.find('nav ul li div');
 	if ( (navigator.userAgent.match(/iPhone/i)) || (navigator.userAgent.match(/iPod/i)) || (navigator.userAgent.match(/iPad/i)) ) {
 		topnavlink.bind('touchstart', function() {
 			//console.log("touch started");
