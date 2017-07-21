@@ -14,13 +14,15 @@
 	<div id="main">
 		<h2><!--Groupname or Piecename--></h2>
 		<section class="piece">
-			<figure class="right">
+			<div>
+				<h3><!--If Part of Group, Piecename, Otherwise Nothing--></h3>
+				<p class="years"><!--years--></p>
+				<div class="piecedesc"><!--description--></div>
+				<p class="mat"><!--material--></p>
+			</div>
+			<figure>
 				<img src="" alt="" title="" />
 			</figure>
-			<h3><!--If Part of Group, Piecename, Otherwise Nothing--></h3>
-			<p class="years"><!--years--></p>
-			<div class="piecedesc"><!--description--></div>
-			<p class="mat"><!--material--></p>
 		</section>
 				
 		<!-- If there are relateds, they go here -->

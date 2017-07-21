@@ -281,7 +281,7 @@
 			$(projects).each(function(findRel){
 				if (projects[findRel].type == 'related' || projects[findRel].type == 'source') {
 				if (projects[findRel].groupname == projects[i].groupname) {
-					_document.find('#main').append('<section class="relateds '+projects[findRel].pId+'"><figure class="right"><img alt="'+projects[findRel].piecename+'" title="'+projects[findRel].piecename+'" /></figure><h3></h3><p class="years"></p><p class="piecedesc"></p><p class="mat"></p></section>');
+					_document.find('#main').append('<section class="relateds '+projects[findRel].pId+'"><div><h3></h3><p class="years"></p><p class="piecedesc"></p><p class="mat"></p></div><figure><img alt="'+projects[findRel].piecename+'" title="'+projects[findRel].piecename+'" /></figure></section>');
 					if (projects[findRel].orientation == 'vertical') {
 						_document.find('.'+projects[findRel].pId+' figure').addClass('vertical');
 					} else {
