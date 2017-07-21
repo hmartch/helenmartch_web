@@ -559,6 +559,14 @@ ul.videos li img:hover {border:1px solid #536f3f;cursor:pointer;}
     width: 210px;
   }
 
+  nav ul li.on, 
+  nav ul li.on a,
+  nav ul li.on ul.sub li a,
+  nav ul li.on ul.sub li a:hover {
+    background: transparent;
+    color: #B3CD9A;
+  }
+
   nav ul.sub {
     visibility: visible;
     height: auto;
