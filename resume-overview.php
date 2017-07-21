@@ -14,7 +14,9 @@
 	<div id="main">
 		<h2>My Career Overview</h2>
 		<section>
-		<p>I have over fifteen years experience in web page development. I taught myself HTML and started freelance work on web projects in 1996. In the fall of 2000, I joined the staff of Oprah.com, holding various responsibilities as the needs of the site shifted over time. In my position as Senior Web Developer, I supervised the front-end development team while continuing to do hands-on development work.</p>
+		<p>I have over twenty years experience in web page development. I taught myself HTML and started freelance work on web projects in 1996. Most recently I was the Senior Front-End Web Developer for a small start-up company, Nativ Mobile, where I worked on web-based applications, marketing websites, blog page development and more.</p>
+
+		<p>In the fall of 2000, I joined the staff of Oprah.com, holding various responsibilities as the needs of the site shifted over time. In my position as Senior Web Developer, I supervised the front-end development team while continuing to do hands-on development work.</p>
 			
 		<p>In 1999, I earned a Master's degree in Human-Computer Interaction from DePaul University. The primary focus of my studies was in the area of user-centered design. I am thoroughly convinced that the use of good design techniques is crucial to the usability and ultimate success of a product.</p>
 		
@@ -26,7 +28,7 @@
 
 		<p>I worked on Oprah.com for nearly eleven years but as <i>The Oprah Winfrey Show</i> ended, I made my choice to move on. After taking a few months to enjoy some quality family time, I went back to work in February 2012 as a front-end development contractor for Sears Holdings Corporation. In the first few months, I worked on projects for a variety of business units and then I joined the team dedicated to the Sears Home Services online business unit.</p>
 		
-		<p>For further information about my background and experience, please look at my <a href="resume-employment.php">Employment</a> and <a href="resume-education.php">Education</a> pages or <a href="resume-hmartch-201305-web.pdf">download my complete r&eacute;sum&eacute;</a> in .pdf format.  You can also view <a href="portfolio-category.php?cat=wd">samples of my web development work</a> in my portfolio.</p>
+		<p>For further information about my background and experience, please look at my <a href="resume-employment.php">Employment</a> and <a href="resume-education.php">Education</a> pages or <a href="pdfs/resume-hmartch-201305-web.pdf" target="ext">download my complete r&eacute;sum&eacute;</a> in .pdf format.  You can also view <a href="portfolio-category.php?cat=wd">samples of my web development work</a> in my portfolio.</p>
 		</section>
 	</div>
 	

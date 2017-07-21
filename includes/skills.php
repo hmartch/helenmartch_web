@@ -1,29 +1,30 @@
-<h3>Skills</h3>
+<h3>Technical Experience</h3>
 		<ul>
-			<li>Primary Programming &amp; Markup Languages:
+			<li>Programming &amp; Markup Languages:
 				<ul>
-					<li>HTML, including XHTML and HTML5</li>
+					<li>HTML / XHTML / HTML5</li>
 					<li>CSS</li>
-					<li>Javascript, including JQuery, Bootstrap, Prototype and MooTools libraries</li>
+					<li>Javascript, including React, Angular, JQuery</li>
 					<li>XSLT</li>
-					<li>XML</li>
+				</ul>
+			</li>
+			<li>Application Framework Environments:
+				<ul>
 					<li>Java Server Pages (JSP)</li>
-					<li>Struts</li>
-					<li>Freemarker Templates (FTL)</li>
+					<li>Node.js</li>
+					<li>Ruby on Rails</li>
 				</ul>
 			</li>
 			<li>Software Experience Includes:
 				<ul>
 					<li>IntelliJ IDEA</li>
-					<li>BBEdit</li>
-					<li>Macromedia Homesite</li>
-					<li>Adobe Dreamweaver</li>
-					<li>Oxygen XML Editor</li>
 					<li>Adobe Photoshop</li>
+					<li>Sketch</li>
 				</ul>
 			</li>
 			<li>Versioning Systems Used:
 				<ul>
+					<li>Git</li>
 					<li>SVN</li>
 					<li>CVS</li>
 				</ul>
@@ -36,11 +37,18 @@
 					<li>Cogix ViewsFlash</li>
 					<li>Jive Clearspace</li>
 					<li>Omniture SiteCatalyst</li>
-					<li>KickApps</li>
 					<li>Akamai EdgeControl</li>
 					<li>SiteSpect Multivariate Testing</li>
 					<li>L-Soft LISTSERV Maestro</li>
 					<li>Intuit Quickbase</li>
+					<li>Trello</li>
+					<li>Wordpress</li>
+					<li>Cloudflare</li>
+					<li>AWS S3</li>
+					<li>TeamGantt</li>
+					<li>Branch.io</li>
+					<li>Code Climate</li>
+					<li>Codeship</li>
 				</ul>
 			</li>
 		</ul>

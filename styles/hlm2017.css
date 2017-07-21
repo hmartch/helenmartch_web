@@ -341,7 +341,7 @@ section {
 }
 
 #main > section > h3 {
-  margin: 10px 0 0 0;
+  margin: 10px 0 5px 0;
 }
 
 section ul {
@@ -353,6 +353,7 @@ section ul li ul {
 }
 
 section > div {
+  flex-basis: 100%;
   margin-bottom: 10px;
 }
 
