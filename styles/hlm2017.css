@@ -340,6 +340,11 @@ section {
   flex-wrap: wrap;
 }
 
+section.piece, section.relateds {
+  clear: both;
+  display: block;
+}
+
 #main > section > h3 {
   margin: 10px 0 5px 0;
 }
