@@ -3,5 +3,5 @@
         <p>&copy; <span id="copyright"></span> Helen L. Martch. Contact me at: <span id="email"></span></p>
     </footer>
   
-  <script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
+  <script src="js/jquery-3.2.1.min.js" type="text/javascript"></script>
   <script src="js/hlm2017.js" type="text/javascript"></script>
