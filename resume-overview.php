@@ -28,7 +28,7 @@
 
 		<p>I worked on Oprah.com for nearly eleven years but as <i>The Oprah Winfrey Show</i> ended, I made my choice to move on. After taking a few months to enjoy some quality family time, I went back to work in February 2012 as a front-end development contractor for Sears Holdings Corporation. In the first few months, I worked on projects for a variety of business units and then I joined the team dedicated to the Sears Home Services online business unit.</p>
 		
-		<p>For further information about my background and experience, please look at my <a href="resume-employment.php">Employment</a> and <a href="resume-education.php">Education</a> pages or <a href="pdfs/resume-hmartch-201305-web.pdf" target="ext">download my complete r&eacute;sum&eacute;</a> in .pdf format.  You can also view <a href="portfolio-category.php?cat=wd">samples of my web development work</a> in my portfolio.</p>
+		<p>For further information about my background and experience, please look at my <a href="resume-employment.php">Employment</a> and <a href="resume-education.php">Education</a> pages<!-- or <a href="pdfs/resume-hmartch-201305-web.pdf" target="ext">download my complete r&eacute;sum&eacute;</a> in .pdf format-->.  You can also view <a href="portfolio-category.php?cat=wd">samples of my web development work</a> in my portfolio.</p>
 		</section>
 	</div>
 	
