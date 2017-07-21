@@ -4,22 +4,12 @@
 	<title>Lyra Beecher's Back Story - HelenMartch.com</title>
 	<meta name="description" content="The back story that I wrote for a character I used to play in an online role-playing game." />
 	<meta name="keywords" content="Lyra Beecher back story writing fiction portfolio personal site Helen Martch Helen March" />
-	<meta charset="windows-1252">
-	<meta name="google-site-verification" content="hgbcQefWUSgp2t9BA0KJuCPJQGyOVdeemJ8h8sy7L9c" />
-	<link rel="stylesheet" type="text/css" href="styles/hlm2011.css"/>
-	<!--[if lt IE 9]>
-	<link rel="stylesheet" type="text/css" href="styles/hlm2011-ie-lt9.css"/>
-	<script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
-	<![endif]-->
+	<?php include "includes/head.php"; ?>
 </head>
 <body>
 	<div id="photoside"></div>
+	<?php include "includes/header.php"; ?>
 	<div id="content">
-
-	<header>
-		<?php include "includes/heading.php"; ?>
-		<?php include "includes/nav.php"; ?>
-	</header>
 	
 	<div id="main">
 		<article>
@@ -39,7 +29,7 @@
 
 <p>For a long time after that, Lyra kept looking for an opportunity to run away. But 'Sir' rarely left the house except for going out into the woods to hunt or chop wood. When he did that he always had a dangerous weapon in hand and Lyra sensed that to try to slip away then would be deadly should he catch her. When in the house, he was either drinking copious amounts of ale and grumbling angrily about things she didn't understand or turning his vile temper against her.</p>
 
-<p>One dark and stormy night, 'Sir' had been out hunting and returned with a large rabbit in his hand. He and his catch were both dripping wet, creating a large puddle on the floor. 'Sir' threw the wet rabbit at Lyra, demanding that she clean it and the floor, as he grabbed a jug of ale and started to drink. Lyra set down the animal and turned to get something to mop up the floor. Suddenly, 'Sir' exploded and slapped her across the face, sending her reeling, ÒYou stupid wench, fix my dinner first,Ó he bellowed. As she turned back to where she left the rabbit, 'Sir' pulled off his wet coat and dropped it in a heap on the floor. Lyra glanced down at it but started to clean the rabbit. 'Sir' finished off his first jug of ale and sloshed through the puddle as he went to grab another when he stopped and looked at what Lyra was doing. ÒWhat are you doing?Ó he screamed, ÒClean up the floor!Ó Then he grabbed Lyra by the shoulders, spun her around and delivered another hard slap to her cheek. Lyra stumbled backward, scared and unsure of what to do next. This seemed to further enrage 'Sir' who lunged after her to issue another beating, but his foot caught on his wet coat on the floor and slid out from under him. His head slammed into the corner of the table nearby before he could catch his fall. Lyra shrank back, sure that he would take it out on her. But, 'Sir' was very still, breathing unevenly but not otherwise moving.</p>
+<p>One dark and stormy night, 'Sir' had been out hunting and returned with a large rabbit in his hand. He and his catch were both dripping wet, creating a large puddle on the floor. 'Sir' threw the wet rabbit at Lyra, demanding that she clean it and the floor, as he grabbed a jug of ale and started to drink. Lyra set down the animal and turned to get something to mop up the floor. Suddenly, 'Sir' exploded and slapped her across the face, sending her reeling, "You stupid wench, fix my dinner first," he bellowed. As she turned back to where she left the rabbit, 'Sir' pulled off his wet coat and dropped it in a heap on the floor. Lyra glanced down at it but started to clean the rabbit. 'Sir' finished off his first jug of ale and sloshed through the puddle as he went to grab another when he stopped and looked at what Lyra was doing. "What are you doing?" he screamed, "Clean up the floor!" Then he grabbed Lyra by the shoulders, spun her around and delivered another hard slap to her cheek. Lyra stumbled backward, scared and unsure of what to do next. This seemed to further enrage 'Sir' who lunged after her to issue another beating, but his foot caught on his wet coat on the floor and slid out from under him. His head slammed into the corner of the table nearby before he could catch his fall. Lyra shrank back, sure that he would take it out on her. But, 'Sir' was very still, breathing unevenly but not otherwise moving.</p>
 
 <p>"Sir?" Lyra asked tentatively. She was very frightened and at a loss for what to do. A flash of lightning from the storm outside pulled her attention away from the inside of the little cave-like house. She glanced down at the prone form at her feet. 'Sir' had fallen in such a way that he was between her and the door. With only the barest glimmer of a plan in mind, Lyra hitched up her ragged skirt, stretched one leg far out and, trying very hard not to touch him, stepped over the man who had held her captive for so long. Without looking back nor giving much thought to where she was going, Lyra ran out through the door into the dark rain and kept running as fast as she could until she was far, far away.</p>
 
@@ -47,27 +37,15 @@
 		</article>
 	</div>
 	
-	<div id="side1" class="side">
+	<div class="side">
 		<?php include "includes/general-side1.php"; ?>
 	</div>
-	
-	<div id="side2" class="side">
-		<div id="biobits">
-			<ul>
-				<li>This is the back story that I wrote for a character I used to play in a role-playing game.</li>
-				<li>The game included message boards for role-playing which allowed many opportunities for creative writing.</li>
-			</ul>
-		</div>
-	</div>
 
-	<div id="side3" class="side">
+	<div class="side">
 		<?php include "includes/portfolio-writing-side.php"; ?>
 	</div>
 	
 	<?php include "includes/foot.php"; ?>
-	
-	<script src="js/jquery-1.7.1.js" type="text/javascript"></script>
-	<script src="js/hlm2011.js" type="text/javascript"></script>
 	
 </div>
 </body>

@@ -1,26 +1,16 @@
 <!DOCTYPE HTML>
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
-	<title>Interests: Garden - HelenMartch.com</title>
+	<title>Family: Garden - HelenMartch.com</title>
 	<meta name="description" content="A slideshow of the wonders of nature in our own backyard." />
 	<meta name="keywords" content="garden gardening plant flower tree photo slide personal site Helen Martch Helen March" />
-	<meta charset="windows-1252">
-	<meta name="google-site-verification" content="hgbcQefWUSgp2t9BA0KJuCPJQGyOVdeemJ8h8sy7L9c" />
-	<link rel="stylesheet" type="text/css" href="styles/hlm2011.css"/>
-	<!--[if lt IE 9]>
-	<link rel="stylesheet" type="text/css" href="styles/hlm2011-ie-lt9.css"/>
-	<script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
-	<![endif]-->
+	<?php include "includes/head.php"; ?>
 	<script src="data/JSONdata-garden.js" type="text/javascript"></script>
 </head>
 <body>
 	<div id="photoside"></div>
+	<?php include "includes/header.php"; ?>
 	<div id="content">
-
-	<header>
-		<?php include "includes/heading.php"; ?>
-		<?php include "includes/nav.php"; ?>
-	</header>
 	
 	<div id="main">
 		<h2>Garden</h2>
@@ -39,24 +29,25 @@
 		</section>
 	</div>
 	
-	<div id="side1" class="side">
+	<div class="side">
 		<?php include "includes/general-side1.php"; ?>
 	</div>
-	
-	<div id="side2" class="side">
-		<div id="biobits">
-			<ul>
-				<li></li>
-			</ul>
-		</div>
+
+	<div class="side">
+		<h3>More Photos</h3>
+		<ul>
+			<li>Garden</li>
+			<li><a href="family-photos-halloween.php">Halloween</a></li>
+			<li><a href="family-photos-pets.php">Pets</a></li>
+			<li><a href="family-photos-travel.php">Travel</a></li>
+		</ul>
 	</div>
 
-	<div id="side3" class="side"></div>
+	<div class="side details">
+		<h3>The Evolving Gardens</h3>
+	</div>
 	
 	<?php include "includes/foot.php"; ?>
-	
-	<script src="js/jquery-1.7.1.js" type="text/javascript"></script>
-	<script src="js/hlm2011.js" type="text/javascript"></script>
 	
 </div>
 </body>

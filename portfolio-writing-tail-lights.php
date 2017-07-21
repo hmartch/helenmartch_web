@@ -4,22 +4,12 @@
 	<title>Tail Lights - HelenMartch.com</title>
 	<meta name="description" content="A poem inspired by the drive home." />
 	<meta name="keywords" content="writing poem fiction non-fiction portfolio personal site Helen Martch Helen March" />
-	<meta charset="windows-1252">
-	<meta name="google-site-verification" content="hgbcQefWUSgp2t9BA0KJuCPJQGyOVdeemJ8h8sy7L9c" />
-	<link rel="stylesheet" type="text/css" href="styles/hlm2011.css"/>
-	<!--[if lt IE 9]>
-	<link rel="stylesheet" type="text/css" href="styles/hlm2011-ie-lt9.css"/>
-	<script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
-	<![endif]-->
+	<?php include "includes/head.php"; ?>
 </head>
 <body>
 	<div id="photoside"></div>
+	<?php include "includes/header.php"; ?>
 	<div id="content">
-
-	<header>
-		<?php include "includes/heading.php"; ?>
-		<?php include "includes/nav.php"; ?>
-	</header>
 	
 	<div id="main">
 		<article>
@@ -47,27 +37,15 @@
 		</article>
 	</div>
 	
-	<div id="side1" class="side">
+	<div class="side">
 		<?php include "includes/general-side1.php"; ?>
 	</div>
-	
-	<div id="side2" class="side">
-		<div id="biobits">
-			<ul>
-				<li>During a period of a lot of late nights at the office, I managed to get out earlier than usual and got stuck in traffic.</li>
-				<li>The poem actually was originally only the first stanza and the imagery of the third came to me separately.</li>
-			</ul>
-		</div>
-	</div>
 
-	<div id="side3" class="side">
+	<div class="side">
 		<?php include "includes/portfolio-writing-side.php"; ?>
 	</div>
 	
 	<?php include "includes/foot.php"; ?>
-	
-	<script src="js/jquery-1.7.1.js" type="text/javascript"></script>
-	<script src="js/hlm2011.js" type="text/javascript"></script>
 	
 </div>
 </body>

@@ -4,22 +4,12 @@
 	<title>His Heart's Desire - HelenMartch.com</title>
 	<meta name="description" content="A short story written for a contest that required the story beginning with the phrase 'It was the one thing he coveted most in the world'" />
 	<meta name="keywords" content="fantasy painting romance love obsession desire writing story fiction portfolio personal site Helen Martch Helen March" />
-	<meta charset="windows-1252">
-	<meta name="google-site-verification" content="hgbcQefWUSgp2t9BA0KJuCPJQGyOVdeemJ8h8sy7L9c" />
-	<link rel="stylesheet" type="text/css" href="styles/hlm2011.css"/>
-	<!--[if lt IE 9]>
-	<link rel="stylesheet" type="text/css" href="styles/hlm2011-ie-lt9.css"/>
-	<script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
-	<![endif]-->
+	<?php include "includes/head.php"; ?>
 </head>
 <body>
 	<div id="photoside"></div>
+	<?php include "includes/header.php"; ?>
 	<div id="content">
-
-	<header>
-		<?php include "includes/heading.php"; ?>
-		<?php include "includes/nav.php"; ?>
-	</header>
 	
 	<div id="main">
 		<article>
@@ -97,27 +87,15 @@
 		</article>
 	</div>
 	
-	<div id="side1" class="side">
+	<div class="side">
 		<?php include "includes/general-side1.php"; ?>
 	</div>
-	
-	<div id="side2" class="side">
-		<div id="biobits">
-			<ul>
-				<li>A short story written for a contest that required the story begin with the phrase 'It was the one thing he coveted most in the world'</li>
-				<li>The magical aspects of the story were inspired by details from J. K. Rowling's world of Harry Potter.</li>
-			</ul>
-		</div>
-	</div>
 
-	<div id="side3" class="side">
+	<div class="side">
 		<?php include "includes/portfolio-writing-side.php"; ?>
 	</div>
 	
 	<?php include "includes/foot.php"; ?>
-	
-	<script src="js/jquery-1.7.1.js" type="text/javascript"></script>
-	<script src="js/hlm2011.js" type="text/javascript"></script>
 	
 </div>
 </body>

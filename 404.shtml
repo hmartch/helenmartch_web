@@ -4,27 +4,36 @@
 	<title>HelenMartch.com</title>
 	<meta name="description" content="Page not found error." />
 	<meta name="keywords" content="personal site Helen Martch Helen March" />
-	<meta charset="windows-1252">
-	<meta name="google-site-verification" content="hgbcQefWUSgp2t9BA0KJuCPJQGyOVdeemJ8h8sy7L9c" />
-	<link rel="stylesheet" type="text/css" href="/styles/hlm2011.css"/>
-	<style type="text/css">
-		#side1 {height:75px;}
-		#side2 {height:50px;}
-		#side3 {height:385px;}
-	</style>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="google-site-verification" content="hgbcQefWUSgp2t9BA0KJuCPJQGyOVdeemJ8h8sy7L9c" />
+  <link rel="stylesheet" type="text/css" href="styles/hlm2017.css"/>
+  <style type="text/css">
+  	#content {
+  		top: 75px;
+  	}
+
+  	#main {
+  		height: calc(100vh - 170px);
+  	}
+
+  	@media (max-width: 768px) {
+  		#content {
+  			top: 0;
+  		}
+  	}
+  </style>
 </head>
 
 <body>
 	<div id="photoside"></div>
+	<header>
+    <img src="/images/photos/helen.png" alt="Me" />
+		<h1><a href="index.php">HelenMartch.com</a></h1>
+		<p>The personal site of a casual red-headed mom and front-end web developer.</p>
+	</header>
 	<div id="content">
 
-	<header>
-		<img src="/images/photos/hmartch-65.jpg" alt="Me" />
-		<h1><a href="/index.php">HelenMartch.com</a></h1>
-		<p>The personal site of a casual red-headed mom and front-end web developer.</p>		
-		<nav></nav>	
-	</header>
-	
 	<div id="main">
 		<h2>Sorry!</h2>
 		<section>
@@ -33,10 +42,6 @@
 		<p>Thanks for visiting!</p>
 		</section>
 	</div>
-	
-	<div id="side1" class="side"></div>
-	<div id="side2" class="side"></div>
-	<div id="side3" class="side"></div>
 	
 	<footer>
 		<p>&copy; <span id="copyright"></span> Helen L. Martch</p>

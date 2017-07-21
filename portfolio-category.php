@@ -4,22 +4,12 @@
 	<title>Portfolio - HelenMartch.com</title>
 	<meta name="description" content="This is my portfolio. Images, web sites, animations and more that I have worked on and/or created." id="metadesc"/>
 	<meta name="keywords" content="portfolio projects samples web design front-end front end web development art computer graphics graphic design Helen Martch Helen March" id="metakeys"/>
-	<meta charset="windows-1252">
-	<meta name="google-site-verification" content="hgbcQefWUSgp2t9BA0KJuCPJQGyOVdeemJ8h8sy7L9c" />
-	<link rel="stylesheet" type="text/css" href="styles/hlm2011.css"/>
-	<!--[if lt IE 9]>
-	<link rel="stylesheet" type="text/css" href="styles/hlm2011-ie-lt9.css"/>
-	<script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
-	<![endif]-->
+	<?php include "includes/head.php"; ?>
 </head>
 <body>
 	<div id="photoside"></div>
+	<?php include "includes/header.php"; ?>
 	<div id="content">
-
-	<header>
-		<?php include "includes/heading.php"; ?>
-		<?php include "includes/nav.php"; ?>
-	</header>
 	
 	<div id="main" class="portfolio">
 		<h2 class="catname"><!--Category Name--></h2>
@@ -28,26 +18,13 @@
 		</section>
 	</div>
 	
-	<div id="side1" class="side">
+	<div class="side">
 		<?php include "includes/general-side1.php"; ?>
 	</div>
 	
-	<div id="side2" class="side">
-		<div id="biobits">
-			<ul>
-				<li></li>
-			</ul>
-		</div>
-	</div>
-
-	<div id="side3" class="side">
-	</div>
-	
-	<?php include "includes/foot.php"; ?>
 	<script src="data/JSONdata-portfolioCategories.js" type="text/javascript"></script>
 	<script src="data/JSONdata-portfolioProjects.js" type="text/javascript"></script>
-	<script src="js/jquery-1.7.1.js" type="text/javascript"></script>
-	<script src="js/hlm2011.js" type="text/javascript"></script>
+	<?php include "includes/foot.php"; ?>
 	
 </div>
 </body>

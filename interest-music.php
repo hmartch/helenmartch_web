@@ -4,23 +4,13 @@
 	<title>Interests: Music - HelenMartch.com</title>
 	<meta name="description" content="About my love for music and a sortable list of some favorites." />
 	<meta name="keywords" content="music songs singing listen personal site Helen Martch Helen March" />
-	<meta charset="windows-1252">
-	<meta name="google-site-verification" content="hgbcQefWUSgp2t9BA0KJuCPJQGyOVdeemJ8h8sy7L9c" />
-	<link rel="stylesheet" type="text/css" href="styles/hlm2011.css"/>
-	<!--[if lt IE 9]>
-	<link rel="stylesheet" type="text/css" href="styles/hlm2011-ie-lt9.css"/>
-	<script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
-	<![endif]-->
+	<?php include "includes/head.php"; ?>
 	<script src="js/sorttable.js"></script>
 </head>
 <body>
 	<div id="photoside"></div>
+	<?php include "includes/header.php"; ?>
 	<div id="content">
-
-	<header>
-		<?php include "includes/heading.php"; ?>
-		<?php include "includes/nav.php"; ?>
-	</header>
 	
 	<div id="main">
 		<h2>Music</h2>
@@ -62,7 +52,7 @@
 						<td data-sorttable_customkey="Mon">The Monkees</td>
 						<td>Tapioca Tundra</td>
 						<td>Rock/Pop</td>
-						<td><a href="http://www.youtube.com/watch?v=xWRnrRauCS8" target="ext">&#x25BA;</a></td>
+						<td><a href="https://www.youtube.com/watch?v=0WlB1KXK_y4" target="ext">&#x25BA;</a></td>
 					</tr>
 					<tr>
 						<td>Big Audio Dynamite II</td>
@@ -80,7 +70,7 @@
 						<td data-sorttable_customkey="Rai">Bonnie Raitt</td>
 						<td>Baby Mine</td>
 						<td>Lullaby</td>
-						<td><a href="http://www.youtube.com/watch?v=ghxnbtgUlhs" target="ext">&#x25BA;</a></td>
+						<td><a href="https://www.youtube.com/watch?v=rqir1zJ0C9I" target="ext">&#x25BA;</a></td>
 					</tr>
 					<tr>
 						<td data-sorttable_customkey="Sme">Bedrich Smetana</td>
@@ -104,19 +94,19 @@
 						<td>One eskimO</td>
 						<td>Kandi</td>
 						<td>Rock/Pop</td>
-						<td><a href="http://www.youtube.com/watch?v=_DM-2Ook4H0" target="ext">&#x25BA;</a></td>
+						<td><a href="https://www.youtube.com/watch?v=p_tBHoRaxns" target="ext">&#x25BA;</a></td>
 					</tr>
 					<tr>
 						<td data-sorttable_customkey="Red">Otis Redding</td>
 						<td>Sittin' on the Dock on the Bay</td>
 						<td>R&amp;B/Soul</td>
-						<td><a href="http://www.youtube.com/watch?v=PyxLaHmOaYM" target="ext">&#x25BA;</a></td>
+						<td><a href="https://www.youtube.com/watch?v=rTVjnBo96Ug" target="ext">&#x25BA;</a></td>
 					</tr>
 					<tr>
 						<td>U2</td>
 						<td>All I Want Is You</td>
 						<td>Rock/Pop</td>
-						<td><a href="http://www.youtube.com/watch?v=4_bqARauWZw" target="ext">&#x25BA;</a></td>
+						<td><a href="https://www.youtube.com/watch?v=FVa8l3ZPG2Q" target="ext">&#x25BA;</a></td>
 					</tr>
 					<tr>
 						<td>Adele</td>
@@ -128,7 +118,7 @@
 						<td data-sorttable_customkey="Mac">Kirsty MacColl</td>
 						<td>In These Shoes?</td>
 						<td>Rock/Pop</td>
-						<td><a href="http://www.youtube.com/watch?v=pjvaqVAFuLI" target="ext">&#x25BA;</a></td>
+						<td><a href="https://www.youtube.com/watch?v=ISzoUdtMSH4" target="ext">&#x25BA;</a></td>
 					</tr>
 					<tr>
 						<td>Smash Mouth</td>
@@ -140,13 +130,13 @@
 						<td>Fastball</td>
 						<td>The Way</td>
 						<td>Rock/Pop</td>
-						<td><a href="http://www.youtube.com/watch?v=nU-XLNs4TCY" target="ext">&#x25BA;</a></td>
+						<td><a href="https://www.youtube.com/watch?v=b0wfu3tOrtQ" target="ext">&#x25BA;</a></td>
 					</tr>
 					<tr>
 						<td data-sorttable_customkey="Str">Igor Stravinsky</td>
 						<td>The Rite of Spring</td>
 						<td>Classical</td>
-						<td><a href="http://www.youtube.com/watch?v=CFKInGQPT7Y" target="ext">&#x25BA;</a></td>
+						<td><a href="https://www.youtube.com/watch?v=FFPjFjUonX8" target="ext">&#x25BA;</a></td>
 					</tr>
 					<tr>
 						<td data-sorttable_customkey="Lov">Lyle Lovett</td>
@@ -158,7 +148,7 @@
 						<td>Vince Guaraldi Trio</td>
 						<td>Linus and Lucy</td>
 						<td>Jazz</td>
-						<td><a href="http://www.youtube.com/watch?v=AwEJZG0vN1w" target="ext">&#x25BA;</a></td>
+						<td><a href="https://www.youtube.com/watch?v=x6zypc_LhnM" target="ext">&#x25BA;</a></td>
 					</tr>
 					<tr>
 						<td data-sorttable_customkey="Mus">Modest Mussorgsky</td>
@@ -221,12 +211,6 @@
 						<td><a href="http://www.youtube.com/watch?v=NlprozGcs80" target="ext">&#x25BA;</a></td>
 					</tr>
 					<tr>
-						<td data-sorttable_customkey="Eag">The Eagles</td>
-						<td>Take It To The Limit</td>
-						<td>Rock/Pop</td>
-						<td><a href="http://www.youtube.com/watch?v=YwASii2f5c8" target="ext">&#x25BA;</a></td>
-					</tr>
-					<tr>
 						<td data-sorttable_customkey="Cli">Jimmy Cliff</td>
 						<td>Sitting in Limbo</td>
 						<td>Reggae</td>
@@ -251,12 +235,6 @@
 						<td><a href="http://www.youtube.com/watch?v=GxLR_VaWkMM" target="ext">&#x25BA;</a></td>
 					</tr>
 					<tr>
-						<td data-sorttable_customkey="Ste">Cat Stevens</td>
-						<td>The Wind</td>
-						<td>Folk Rock</td>
-						<td><a href="http://www.youtube.com/watch?v=Z9hZ9GTRcTo" target="ext">&#x25BA;</a></td>
-					</tr>
-					<tr>
 						<td data-sorttable_customkey="Fra">Aretha Franklin</td>
 						<td data-sorttable_customkey="You">(You Make Me Feel Like) A Natural Woman</td>
 						<td>R&amp;B/Soul</td>
@@ -266,7 +244,7 @@
 						<td data-sorttable_customkey="Who">The Who</td>
 						<td>I Can See For Miles</td>
 						<td>Rock/Pop</td>
-						<td><a href="http://www.youtube.com/watch?v=H4BBQMjbX3c" target="ext">&#x25BA;</a></td>
+						<td><a href="https://www.youtube.com/watch?v=kb5mRBMZbYo" target="ext">&#x25BA;</a></td>
 					</tr>
 					<tr>
 						<td>Concrete Blonde</td>
@@ -323,25 +301,11 @@
 		</section>
 	</div>
 	
-	<div id="side1" class="side">
+	<div class="side">
 		<?php include "includes/general-side1.php"; ?>
 	</div>
 	
-	<div id="side2" class="side">
-		<div id="biobits">
-			<ul>
-				<li></li>
-			</ul>
-		</div>
-	</div>
-
-	<div id="side3" class="side">
-	</div>
-	
 	<?php include "includes/foot.php"; ?>
-	
-	<script src="js/jquery-1.7.1.js" type="text/javascript"></script>
-	<script src="js/hlm2011.js" type="text/javascript"></script>
 	
 </div>
 </body>
