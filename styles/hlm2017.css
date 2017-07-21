@@ -323,14 +323,28 @@ nav.slide span.link {
 }
 
 #main ul.photos {
+  align-items: flex-start;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
   list-style-type: none;
   margin: 0;
   padding: 0;
 }
 
-#main ul.photos li {float:left;width:165px;height:160px;margin:0 10px 12px 0;padding:0;}
+#main ul.photos li {
+  height: 160px;
+  margin: 0 10px 20px 0;
+  max-width: 165px;
+  padding: 0;
+  width: calc(50% - 20px);
+}
 
-#main ul.photos li img {width:165px;margin:0;}
+#main ul.photos li img {
+  max-width: 165px;
+  margin: 0;
+  width: 100%;
+}
 
 /* section based styles */
 section {

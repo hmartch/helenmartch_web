@@ -14,19 +14,21 @@
 	<div id="main">
 		<h2>Other Projects</h2>
 		<section>
-		<p>Intro sentence tbd.</p>
+		<p></p>
+
+		<dl>
+			<dt><a href="portfolio-category.php?cat=va" data-cat="va">Art</a></dt>
+			<dd>Various paintings and drawings that I created in the Art and Design classes that I took as part of my studies at DePaul University, plus a few things I created on my own outside of class.</dd>
+
+			<dt><a href="portfolio-category.php?cat=3d" data-cat="3d">3-D Images</a></dt>
+			<dd>A collection of three-dimensional computer images that I created.</dd>
 			
-		<ul>
- 			<li><a href="portfolio-category.php?cat=va" data-cat="va">Art</a></li>
-			<li><a href="portfolio-category.php?cat=3d" data-cat="3d">3-D Images</a></li>
-			<li><a href="portfolio-category.php?cat=gd" data-cat="gd">Design</a></li>
-			<li><a href="portfolio-category.php?cat=mm" data-cat="mm">Multimedia</a></li>
-		</ul>
-		
-		<!--<dl>
-			<dt><a href=""></a></dt>
-			<dd></dd>
-		</dl>-->
+			<dt><a href="portfolio-category.php?cat=gd" data-cat="gd">Design</a></dt>
+			<dd>A collection of print graphic design projects, including poster art, and CD packaging.</dd>
+			
+			<dt><a href="portfolio-category.php?cat=mm" data-cat="mm">Multimedia</a></dt>
+			<dd>Multimedia software and applications that I have worked on, mostly for school projects.</dd>
+		</dl>
 		</section>
 	</div>
 	
