@@ -49,9 +49,6 @@
 			<li>Isham</li>
 			<li>Jackson</li>
 			<li>Jones</li>
-		</ul>
-		
-		<ul class="surnames left">
 			<li>Keller</li>
 			<li>Kelly</li>
 			<li>Lewis</li>
