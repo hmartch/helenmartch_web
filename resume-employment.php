@@ -16,7 +16,7 @@
 		<section>
 			<h3>Web Design &amp; Development Experience</h3>
 				<div>
-					Nativ Mobile LLC, Chicago, IL, <span class="years">May 2014&#8211;July 2017</span>
+					Nativ Mobile LLC, (formerly MobileX Labs), Chicago, IL, <span class="years">May 2014&#8211;July 2017</span>
 					<ul>
 						<li><b>Senior Front End Web Developer</b>, <a href="http://staging.nativ.com/" target="ext">Nativ App Maker</a> and <a href="http://current.us/" target="ext">Current</a></li>
 					</ul>
