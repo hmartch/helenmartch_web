@@ -1,6 +1,36 @@
 var portfolioProjects = {
 	"projects":[
 		{
+			"pId": "admin-portal-collection",
+			"type": "related",
+			"piecename": "Collection Management Panel",
+			"projdesc": "",
+			"projkeys": "",
+			"years": "2015-2016",
+			"material": "React, HTML, CSS, JQuery",
+			"piecedesc": "<p>The Collection management panel gives control over which categories are included in the collection and in what order.</p>",
+			"image": "admin-portal-collection",
+			"orientation": "",
+			"groupname": "Current iOS App Admin Portal",
+			"related": "admin-portal-category",
+			"category": "wd"
+		},
+		{
+			"pId": "admin-portal-category",
+			"type": "main",
+			"piecename": "Curated Category Management Panel",
+			"projdesc": "",
+			"projkeys": "",
+			"years": "2015-2016",
+			"material": "React, HTML, CSS, JQuery",
+			"piecedesc": "<p>The admin portal is a single-page web application, built with React, for Nativ Mobile's content admin team to create and manage curated content categories and collections to guide users to meaningful content in the Current (formerly Pairade) iOS app.</p><p>The Curated Category management panel gives control over the category name, representative image, which cards are included in the category and in what order.</p>",
+			"image": "admin-portal-category",
+			"orientation": "",
+			"groupname": "Current iOS App Admin Portal",
+			"related": "admin-portal-collection",
+			"category": "wd"
+		},
+		{
 			"pId": "nativ-templates-focus",
 			"type": "related",
 			"piecename": "Template Selection Focused on Venues",
