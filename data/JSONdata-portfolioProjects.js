@@ -1,6 +1,36 @@
 var portfolioProjects = {
 	"projects":[
 		{
+			"pId": "current-splash-v2",
+			"type": "main",
+			"piecename": "Marketing Splash Web Page for the Current iOS app, v2",
+			"projdesc": "",
+			"projkeys": "",
+			"years": "2017",
+			"material": "React, HTML, CSS, JQuery",
+			"piecedesc": "<p>The second version of the marketing splash web page with the updated branding and messaging focusing on the primary content focus of the app...music.</p><video controls=\"controls\" loop autoplay><source src=\"\/videos\/current-v2-480p.mp4\" type=\"video\/mp4\" /><source src=\"\/videos\/current-v2-480p.oggtheora.ogv\" type=\"video\/ogg\" />Sorry, but your browser does not support the video tag.</video>",
+			"image": "current-splash-v2",
+			"orientation": "",
+			"groupname": "",
+			"related": "",
+			"category": "wd"
+		},
+		{
+			"pId": "current-splash-v1",
+			"type": "main",
+			"piecename": "Marketing Splash Web Page for the Current iOS app, v1",
+			"projdesc": "",
+			"projkeys": "",
+			"years": "2017",
+			"material": "React, HTML, CSS, JQuery",
+			"piecedesc": "<p>The first version of the marketing splash web page with the original branding and messaging.</p><video controls=\"controls\" loop autoplay><source src=\"\/videos\/current-v1-480p.mp4\" type=\"video\/mp4\" /><source src=\"\/videos\/current-v1-480p.oggtheora.ogv\" type=\"video\/ogg\" />Sorry, but your browser does not support the video tag.</video>",
+			"image": "current-splash-v1",
+			"orientation": "",
+			"groupname": "",
+			"related": "",
+			"category": "wd"
+		},
+		{
 			"pId": "admin-portal-collection",
 			"type": "related",
 			"piecename": "Collection Management Panel",
