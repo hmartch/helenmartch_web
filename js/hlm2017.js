@@ -302,7 +302,13 @@
 		} else {
 			_document.find('.piece figure').removeClass('vertical');
 		}
-		_document.find('.piece figure').html('<img src="images/portfolio/'+projects[i].category+'/'+projects[i].image+'-320.jpg" title="'+projects[i].piecename+'" alt="'+projects[i].piecename+'"/>');
+		if ((projects[i].image != "current-splash-v1") && (projects[i].image != "current-splash-v2")) {
+			_document.find('.piece figure').html('<img src="images/portfolio/'+projects[i].category+'/'+projects[i].image+'-320.jpg" title="'+projects[i].piecename+'" alt="'+projects[i].piecename+'"/>');
+		}
+		else {
+			_document.find('.piece figure').remove();
+			_document.find('.piece > div').css('flex-basis', '100%');
+		}
 		_document.find('.piece .years').html(projects[i].years);
 		_document.find('.piece .piecedesc').html(projects[i].piecedesc);	
 		_document.find('.piece .mat').html(projects[i].material);
