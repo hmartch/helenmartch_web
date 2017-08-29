@@ -23,7 +23,7 @@
 				</div>
 
 				<div>
-					<a href="http://www.searsholdings.com/" target="ext">Sears Holdings Corporation</a>, Chicago, IL, <span class="years">February 2012&#8211;Present</span>
+					<a href="http://www.searsholdings.com/" target="ext">Sears Holdings Corporation</a>, Chicago, IL, <span class="years">February 2012&#8211;May 2014</span>
 					<ul>
 						<li><b>Front End Developer</b>, <a href="http://www.searshomeservices.com/" target="ext">Sears Home Services</a></li>
 					</ul>
